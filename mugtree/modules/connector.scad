@@ -1,6 +1,6 @@
 include <../config.scad>;
 
-module male_connector()
+module connector()
 {
     cylinder(
         h = connector_length,
@@ -8,7 +8,7 @@ module male_connector()
     );
 }
 
-module female_socket()
+module socket()
 {
     translate([0, 0, -0.1])
         cylinder(

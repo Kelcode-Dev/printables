@@ -34,7 +34,7 @@ module top()
     }
 
     // Bottom female socket
-    female_socket();
+    socket();
   }
 }
 

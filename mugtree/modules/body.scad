@@ -15,9 +15,9 @@ module body(arms = arms_per_level)
         d = column_diameter
       );
 
-      // Top male connector
+      // Top connector
       translate([0, 0, body_height])
-        male_connector();
+        connector();
 
       // Arms
       translate([0, 0, arm_height - arm_offset])
@@ -31,8 +31,8 @@ module body(arms = arms_per_level)
       }
     }
 
-    // Bottom female socket
-    female_socket();
+    // Bottom socket
+    socket();
   }
 }
 

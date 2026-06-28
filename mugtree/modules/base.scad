@@ -44,9 +44,9 @@ module base(text_content = text_label)
       ]);
   }
 
-  // Male connector socket
+  // Connector socket
   translate([0, 0, base_height])
-    male_connector();
+    connector();
 
   // Raised front text
   translate([
