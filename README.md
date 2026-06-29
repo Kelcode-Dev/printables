@@ -2,7 +2,7 @@
 
 A collection of 3D-printable models designed in [OpenSCAD](https://openscad.org/).
 
-[Articles & build logs →](https://kelcode.co.uk/tags/printables)
+[Articles & build logs →](https://kelcode.co.uk/tag/printables)
 
 > **Note:** This repository is a work in progress and will be populated with more projects over time
 
